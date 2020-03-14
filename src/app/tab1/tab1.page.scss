@@ -8,11 +8,12 @@
   padding-left: 10px;
 }
 
-.category {
-  width: 100px;
-  height: 180px;
-  padding: 100px;
-}
+// .category {
+//   width: 100px;
+//   line-height: 200px;
+//   height: 180px;
+//   // padding: 100px;
+// }
 
 .star_icon {
   font-size: 2em;
@@ -20,8 +21,14 @@
   margin: 25%;
 }
 
+.user-profil {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
 //Test scroll
-.stories {
+.categories {
   width: auto;
   padding: 1px;
   height: 20%;
@@ -29,9 +36,11 @@
   overflow: scroll;
 }
 
-.story {
+.category {
   width: auto;
   padding: 5% 10% 5% 10%;
+  font-size: 20px;
+  line-height: 1.5;
   margin: 1%;
   border-radius: 8px;
   color: #fff;
