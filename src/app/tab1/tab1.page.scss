@@ -1,0 +1,59 @@
+.new-background-color{
+    --background: #F1750C;
+    color: #fff;
+}
+
+.title {
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.category {
+  width: 100px;
+  height: 180px;
+  padding: 100px;
+}
+
+.star_icon {
+  font-size: 2em;
+  // text-align: center;
+  margin: 25%;
+}
+
+//Test scroll
+.stories {
+  width: auto;
+  padding: 1px;
+  height: 20%;
+  display: flex;
+  overflow: scroll;
+}
+
+.story {
+  width: auto;
+  padding: 5% 10% 5% 10%;
+  margin: 1%;
+  border-radius: 8px;
+  color: #fff;
+  background: linear-gradient(145deg, rgba(255,128,100,1) 0%, rgba(217,29,29,1) 100%);
+}
+
+.eventList {
+  margin-top: 8%;
+}
+
+.eventTitle {
+  font-weight: bold;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding-bottom: 2px;
+}
+
+.eventContent {
+  font-size: 12px;
+}
+
+.eventDate {
+  font-weight: 600;
+  font-size: 35px;
+}
